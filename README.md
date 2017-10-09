@@ -8,6 +8,21 @@ aware of what's going on in the group as a whole. :+1:
 This will probably start out with a chatbot for the Discord channel (or whatever chatroom service ends up being most popular)
 and then adding in other services to the bot as we go further!
 
+## Getting Started
+First get node.js set up for your machine. Then set up an environment for the project.
+```
+npm init
+npm install discord.io --save
+```
+Next get a Discord app setup for access to Discord's API. Then create a config.json file containing the token for your app bot user
+
+confing.json:
+```json
+{
+    "token":"YOUR_TOKEN_HERE"
+}
+``` 
+
 ## Stuff to read
 
 node.js:
