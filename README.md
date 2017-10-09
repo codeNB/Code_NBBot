@@ -19,7 +19,8 @@ Next get a Discord app setup for access to Discord's API. Then create a config.j
 confing.json:
 ```json
 {
-    "token":"YOUR_TOKEN_HERE"
+    "token":"YOUR_TOKEN_HERE",
+    "sig":"!"
 }
 ``` 
 
