@@ -11,7 +11,7 @@ and then adding in other services to the bot as we go further!
 ## Getting Started
 First get node.js set up for your machine. Then set up an environment for the project.
 ```
-npm run install
+npm install
 ```
 Next get a Discord app setup for access to Discord's API. Then create a config.json file containing the token for your app bot user
 
