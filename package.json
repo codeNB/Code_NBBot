@@ -1,0 +1,29 @@
+{
+  "name": "code_nbbot",
+  "version": "1.0.0",
+  "description": "Discord chatbot for code_NB",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burrbank/Code_NBBot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Discord.io",
+    "node.js",
+    "Code_NB"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burrbank/Code_NBBot/issues"
+  },
+  "homepage": "https://github.com/burrbank/Code_NBBot#readme",
+  "dependencies": {
+    "discord.io": "2.5.3"
+  }
+}
