@@ -17,7 +17,10 @@ node.js:
 jQuery:
 * https://api.jquery.com/
 
-discord.js:
+discord.io:
+* https://github.com/izy521/discord.io
+
+discord.js: (not being used but the tutorials are good for setting up your discord app)
 * https://anidiots.guide/getting-started/the-long-version.html
 * https://anidiots.guide/getting-started/linux-tldr.html
 * https://anidiots.guide/getting-started/windows-tldr.html
