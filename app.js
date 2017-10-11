@@ -16,6 +16,11 @@ forBot = function(message){
     return message.startsWith(config.sig);
 }
 
+getCommand = function(message){
+    // remove sig from start of message intended for use after sig has been checked.
+    return message.replace(config.sig, '');
+}
+
 bot.on('ready', function() {
     // ready message to console
     console.log('Logged in as %s - %s\n', bot.username, bot.id);
@@ -24,9 +29,11 @@ bot.on('ready', function() {
 bot.on('message', function(user, userID, channelID, message, event){
     // responds to any message that the bot can see e.i. channels it's logged in on.
     if (forBot(message)){
+        message = getCommand(message)
         // checks if the message starts with the sig string from the config file.
         if (message === "ping") {
             // simple ping pong test response 
+            console.log(message + ' User:' + user + '#' + userID);
             bot.sendMessage({
                 to: channelID,
                 message: "pong"
